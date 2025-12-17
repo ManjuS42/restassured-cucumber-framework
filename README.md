@@ -266,4 +266,22 @@ mvn test -Dcucumber.filter.tags="@Sanity"
 
 ---
 
+## 📦 Git Setup
+
+```
+git init
+git remote add origin https://github.com/ManjuS42/restassured-cucumber-framework.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+```
+---
+
+## 👤 Author
+
+---
+
+Manju S
+Senior Software Development Engineer in Test (SDET)
+🔗 GitHub: https://github.com/ManjuS42
 
