@@ -15,6 +15,7 @@ public class BaseService {
   public BaseService() {
     request = RestAssured.given()
         .baseUri(ConfigReader.get("base.uri"))
+        .header("User-Agent", ConfigReader.get("user.agent"))
         .contentType(ContentType.JSON)
         .log().all();
   }
@@ -30,5 +31,10 @@ public class BaseService {
     response.then().log().all();
     return response;
   }
+
+  protected void setAuthToken(String token) {
+    request.header("Authorization", "Bearer " + token);
+  }
+
 }
 
