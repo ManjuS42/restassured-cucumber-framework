@@ -282,6 +282,7 @@ git push -u origin main
 ---
 
 Manju S
-Senior Software Development Engineer in Test (SDET)
-🔗 GitHub: https://github.com/ManjuS42
+| Senior Software Development Engineer in Test (SDET) |
+
+| 🔗 GitHub: https://github.com/ManjuS42 |
 
