@@ -277,11 +277,10 @@ git push -u origin main
 ```
 ---
 
-## 👤 Author
+## 🧑‍💻 Author
 
----
+Automation Framework developed by **Manju S**
 
-Manju S
 | Senior Software Development Engineer in Test (SDET) |
 
 | 🔗 GitHub: https://github.com/ManjuS42 |
